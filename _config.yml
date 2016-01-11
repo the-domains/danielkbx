@@ -1,28 +1,40 @@
-name: danielkbx
 favicon: null
-layout_spectrum: 0.8949616765603423
-typography_spectrum: 0.7584022597875446
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: danielkbx
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.530466
+  brandStrength: 0.3526513259857893
+  lightness: 0.8853046
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.3526513259857893
-  lightness: 0.10951817966997623
-  saturation: 0.2171319725457579
-  rhythmicContrast: 0.41514097317121923
-purpose: []
+  rhythmicContrast: 0.6344086
+typography_spectrum: 0.3261649
+layout_spectrum: 0.5125448
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
